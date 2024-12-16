@@ -1,16 +1,24 @@
 {
   "name": "stscapigateway",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShortTermStayCompany/STSCAPIGATEWAY.git"
+  },
+  "private": true,
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "open": "^10.1.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
